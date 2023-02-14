@@ -43,6 +43,15 @@ import diaryImageEditor from '../assets/images/diary_image_editor.png';
 import diaryList from '../assets/images/diary_list.png';
 import diaryView from '../assets/images/diary_view.png';
 
+import shotAlbum from '../assets/images/shot_album.png';
+import shotArtist from '../assets/images/shot_artist.png';
+import shotDarkTheme from '../assets/images/shot_dark_theme.png';
+import shotDetailPlaylist from '../assets/images/shot_detail_playlist.png';
+import shotHome from '../assets/images/shot_home.png';
+import shotMusic from '../assets/images/shot_music.png';
+import shotPlaylist from '../assets/images/shot_playlist.png';
+import shotSchedule from '../assets/images/shot_schedule.png';
+
 export default {
   email,
   mobile,
@@ -83,5 +92,13 @@ export default {
   diaryEditor,
   diaryImageEditor,
   diaryList,
-  diaryView
+  diaryView,
+  shotAlbum,
+  shotArtist,
+  shotDarkTheme,
+  shotDetailPlaylist,
+  shotHome,
+  shotMusic,
+  shotPlaylist,
+  shotSchedule
 };

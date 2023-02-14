@@ -23,7 +23,7 @@ const Content = ({ title, description, image, flip = false, circles = null, btnC
                 <div className='w-full px-8 z-10'>
                     <h1 className={`text-2xl lg:text-6xl font-black ${flip ? "text-right" : ""}`}>{title}</h1>
                     <p className={`mt-8 text-base p-text ${flip ? "text-right" : ""}`}>{description}</p>
-                    <a href={"https://play.google.com/store/apps/details?id=com.guysrobot.diaryforlife"} >
+                    <a href={"https://play.google.com/store/apps/details?id=com.guysrobot.musicapplication"} >
                         <div className={`flex w-48 h-14 text-sm font-black cursor-pointer bg-indigo-600 hover:bg-indigo-800 text-white rounded-lg items-center justify-center mt-16 ${flip ? "ml-auto" : ""} ${btnClasses}`}>
                             Try For Free
                         </div>

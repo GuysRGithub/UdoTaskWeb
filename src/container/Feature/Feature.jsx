@@ -62,7 +62,7 @@ const Skill = () => {
                         </motion.div>
                     ))}
                 </motion.div>
-                <a href={"https://play.google.com/store/apps/details?id=com.guysrobot.diaryforlife"} >
+                <a href={"https://play.google.com/store/apps/details?id=com.guysrobot.musicapplication"} >
                     <div className="mx-auto flex w-48 h-14 text-sm font-black cursor-pointer bg-indigo-600 hover:bg-indigo-800 text-white rounded-lg items-center justify-center mt-16">
                         Try For Free
                     </div>

@@ -26,15 +26,15 @@ const Header = () => {
                         <span>👋</span>
                         <div className='ml-4'>
                             <p className='p-text'>Hello, I am</p>
-                            <h1 className='head-text'>Omoir</h1>
+                            <h1 className='head-text'>MusicOwl</h1>
                         </div>
                     </div>
                     <div className='tag-cmp'>
                         <p className='p-text'>
-                            <span>The diary app</span>
+                            <span>The music app</span>
                         </p>
                         <p className='p-text'>
-                            <span>to keep track of your moments</span>
+                            <span>to keep track of your songs</span>
                         </p>
                     </div>
                 </div>
@@ -44,8 +44,8 @@ const Header = () => {
                 transition={{ duration: 0.5, delayChildren: 0.5 }}
                 className='app__header-img'>
                 <div className='w-full invisible lg:visible absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 px-8 z-10'>
-                    <h1 className='text-6xl text-center font-black'>The Omoir App</h1>
-                    <p className='mt-8 w-1/2 text-2xl text-center mx-auto'>Want to keep track your events. Try Omoir to help you write for enjoying your moments</p>
+                    <h1 className='text-6xl text-center font-black'>The MusicOwl App</h1>
+                    <p className='mt-8 w-1/2 text-2xl text-center mx-auto'>Want to keep track your events. Try MusicOwl to help you write for enjoying your moments</p>
                     <div className='mx-auto mt-8 w-48'>
                         <PlayButton />
                     </div>
