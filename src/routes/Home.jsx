@@ -7,7 +7,7 @@ function Home() {
     <div className="app">
       <Header />
       <Feature />
-      <Content title="Home page for quick access" description="Recent and favorite songs are shown in home tab for easy to keep track of the most favor and recent played songs" image={images.shotHome} flip={false} idName="recent"
+      <Content title="Home page for quick access" description="Recent and group tasks are shown in home tab for easy to keep track of the all your tasks list" image={images.shotHome} flip={false} idName="recent"
         circles={
           <>
             <div className='circle-cmp app__flex p-4 absolute top-24 left-8' key={`circle-favorite`}>
@@ -26,7 +26,7 @@ function Home() {
             </div>
           </>
         } />
-      <Content title="Fully customize playing music" description="Fully customize playing music with many options as shuffle, repeat single song, repeat whole setlist (album, artist or playlist)" image={images.shotMusic} flip={true} idName="editor"
+      <Content title="List tasks view" description="View all your tasks and its summary easily with list" image={images.shotTask} flip={true} idName="editor"
         circles={
           <>
             <div className='circle-cmp app__flex p-6 absolute left-0 top-0' key={`circle-quill`}>
@@ -45,7 +45,7 @@ function Home() {
             </div>
           </>
         } />
-      <Content title="Group songs into album" description="Group multiple songs of the same artist into album to play all songs of your favorite artist with a single click" image={images.shotAlbum} flip={false} idName="list"
+      <Content title="Group tasks based on its status" description="Group multiple tasks of the same status (pending, completed, overdue) into group to help you keep track of your tasks with an ease" image={images.shotTaskStatus} flip={false} idName="list"
         circles={
           <>
             <div className='circle-cmp app__flex p-6 absolute left-0 bottom-0' key={`circle-list`}>
@@ -62,7 +62,7 @@ function Home() {
             </div>
           </>
         } />
-      <Content title="Artist collection" description="Allow to group all songs and albums of the same artist to allow play all songs al well as all albums of your favorite artist" image={images.shotArtist} flip={true} idName="calendar"
+      <Content title="View all task detail info" description="View and edit all your task details info with a friendly and simple yet effectively UI" image={images.shotTaskDetail} flip={true} idName="calendar"
         circles={
           <>
             <div className='circle-cmp app__flex p-5 absolute left-0' key={`circle-calendar`}>
@@ -81,7 +81,7 @@ function Home() {
             </div>
           </>
         } />
-      <Content title="Organize your favorite songs with playlist" description="Organizing and customizing multiple songs style into playlist to use for specific purpose such as relax, studying or mediating, ..." image={images.shotPlaylist} flip={false} idName="emoji"
+      <Content title="Keep track of your tasks with calendar" description="Keep track of all your events and task timer easily with calendar view" image={images.shotCalendar} flip={false} idName="emoji"
         circles={
           <>
             <div className='circle-cmp app__flex p-4 absolute left-12 top-12' key={`circle-enjoy`}>
@@ -100,7 +100,7 @@ function Home() {
             </div>
           </>
         } />
-      <Content title="Play and add song to your setlist" description="Play and add any song you like into your setlist (album, artist or playlist) with ease" image={images.shotDetailPlaylist} flip={true} idName="view"
+      <Content title="See all tasks in chronoly order" description="Display all tasks and its summary in chronoly order with timeline view" image={images.shotTimeline} flip={true} idName="view"
         circles={
           <>
             <div className='circle-cmp app__flex p-4 absolute left-0 top-0' key={`circle-pages`}>
@@ -119,7 +119,7 @@ function Home() {
             </div>
           </>
         } />
-      <Content title="Built-in music schedule to play at specific time" description="Built-in music schedule ready to allow you play your favorite songs at any time, including when you are sleeping, can also be serve as a simple wake up reminder for each day" image={images.shotSchedule} flip={false} idName="image-editor"
+      <Content title="View and visualize your tasks with summary and chart" description="Built-in overview page to allow you to see and visualize your tasks and its status" image={images.shotChart} flip={false} idName="image-editor"
         circles={
           <>
             <div className='circle-cmp app__flex h-16 w-16 absolute top-0' key={`circle-camera`}>
